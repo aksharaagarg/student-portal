@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dashboard.js" defer></script>
+</head>
+<body>
+    <header class="topbar">
+        <h2>Student Portal</h2>
+        <button id="themeButton" type="button">Dark Mode</button>
+    </header>
+
+    <main class="dashboard">
+        <section class="welcome-section">
+            <h1 id="welcomeHeading">Welcome to Student Portal!</h1>
+            <button id="headingButton" type="button">
+                Change Heading
+            </button>
+        </section>
+
+        <section class="stats-container">
+            <div class="stat-card">
+                <h3>Total Students</h3>
+                <p id="totalStudents">Loading...</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Top Student</h3>
+                <p id="topStudentName">Loading...</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Student Details</h2>
+            <div id="studentDetails" class="stats-container">
+                Loading student details...
+            </div>
+        </section>
+
+        <section class="table-section">
+            <h2>Subject-wise Marks</h2>
+
+            <button id="tableButton" type="button">
+                Hide Marks Table
+            </button>
+
+            <div id="tableContainer" class="table-container">
+                <table>
+                    <thead id="marksTableHead"></thead>
+                    <tbody id="marksTableBody"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <p id="dataMessage" role="status"></p>
+    </main>
+</body>
+</html>

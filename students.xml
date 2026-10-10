@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <id>101</id>
+        <name>Aarav Sharma</name>
+        <course>B.Tech CSE</course>
+        <semester>5</semester>
+        <email>aarav@example.com</email>
+        <marks>
+            <subject name="Java">92</subject>
+            <subject name="DBMS">85</subject>
+            <subject name="Web Development">90</subject>
+            <subject name="Operating Systems">88</subject>
+        </marks>
+    </student>
+
+    <student>
+        <id>102</id>
+        <name>Priya Verma</name>
+        <course>B.Tech CSE</course>
+        <semester>5</semester>
+        <email>priya@example.com</email>
+        <marks>
+            <subject name="Java">88</subject>
+            <subject name="DBMS">94</subject>
+            <subject name="Web Development">91</subject>
+            <subject name="Operating Systems">86</subject>
+        </marks>
+    </student>
+
+    <student>
+        <id>103</id>
+        <name>Rohan Gupta</name>
+        <course>B.Tech IT</course>
+        <semester>5</semester>
+        <email>rohan@example.com</email>
+        <marks>
+            <subject name="Java">76</subject>
+            <subject name="DBMS">80</subject>
+            <subject name="Web Development">72</subject>
+            <subject name="Operating Systems">78</subject>
+        </marks>
+    </student>
+
+    <student>
+        <id>104</id>
+        <name>Ananya Singh</name>
+        <course>B.Tech AI</course>
+        <semester>5</semester>
+        <email>ananya@example.com</email>
+        <marks>
+            <subject name="Java">95</subject>
+            <subject name="DBMS">92</subject>
+            <subject name="Web Development">96</subject>
+            <subject name="Operating Systems">91</subject>
+        </marks>
+    </student>
+
+    <student>
+        <id>105</id>
+        <name>Kabir Jain</name>
+        <course>B.Tech CSE</course>
+        <semester>5</semester>
+        <email>kabir@example.com</email>
+        <marks>
+            <subject name="Java">81</subject>
+            <subject name="DBMS">79</subject>
+            <subject name="Web Development">85</subject>
+            <subject name="Operating Systems">80</subject>
+        </marks>
+    </student>
+
+    <student>
+        <id>106</id>
+        <name>Meera Agarwal</name>
+        <course>B.Tech AI</course>
+        <semester>5</semester>
+        <email>meera@example.com</email>
+        <marks>
+            <subject name="Java">97</subject>
+            <subject name="DBMS">95</subject>
+            <subject name="Web Development">94</subject>
+            <subject name="Operating Systems">98</subject>
+        </marks>
+    </student>
+</students>
