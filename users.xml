@@ -9,4 +9,8 @@
         <username>admin</username>
         <password>admin123</password>
     </user>
+    <user>
+        <username>jane</username>
+        <password>123</password>
+    </user>
 </users>
